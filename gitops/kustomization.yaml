@@ -10,4 +10,4 @@ namespace: luis-bruckner-dev
 images:
 - name: marcelobruckner/hello
   newName: marcelobruckner/hello
-  newTag: 7cebbe6
+  newTag: a01b096
