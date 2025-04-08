@@ -1,13 +1,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - service.yaml
-  - deployment.yaml
-  - route.yaml
+- service.yaml
+- deployment.yaml
+- route.yaml
 
 namespace: luis-bruckner-dev
 
 images:
-  - name: marcelobruckner/hello
-    newName: marcelobruckner/hello
-    newTag: 94b01e20e24a0ccf088efcba6cb8252b641712a0c0a4311a755ff5afa83d87bc
+- name: marcelobruckner/hello
+  newName: marcelobruckner/hello
+  newTag: 54ac8e4
