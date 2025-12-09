@@ -10,4 +10,4 @@ namespace: hello-pipeline
 images:
 - name: marcelobruckner/hello
   newName: marcelobruckner/hello
-  newTag: 689ed53
+  newTag: c6bf1ed
