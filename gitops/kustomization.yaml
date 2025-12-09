@@ -4,7 +4,7 @@ resources:
 - service.yaml
 - deployment.yaml
 
-namespace: luis-bruckner-dev
+namespace: hello-pipeline
 
 images:
 - name: marcelobruckner/hello
