@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: hello
+spec:
+  to:
+    kind: Service
+    name: hello
+  port:
+    targetPort: http       # ou 8080 se não usar nome
+  tls:
+    termination: edge      # remova se não precisar de TLS
