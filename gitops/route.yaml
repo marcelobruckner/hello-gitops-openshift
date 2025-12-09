@@ -7,6 +7,6 @@ spec:
     kind: Service
     name: hello
   port:
-    targetPort: http       # ou 8080 se não usar nome
+    targetPort: 8080       # ou 8080 se não usar nome
   tls:
     termination: edge      # remova se não precisar de TLS
